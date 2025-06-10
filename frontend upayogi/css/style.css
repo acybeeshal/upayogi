@@ -4,8 +4,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    padding-top: 5px;
-    background: oxFFF 5E 9D 8px; ;
+    padding-top: 10px;
+    background: oxFFF 5E 9D 8px; 
     border:2px;
     font-size: 100%;
     font-weight: 400;
@@ -16,6 +16,37 @@ body{
  width: 40px;height: 40px;
 }
 
+
+
+/* style of team  */
+ .team-card {
+      min-width: 250px;
+      max-width: 250px;
+      margin-right: 1rem;
+    }
+    .team-photo {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .scroll-container {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      padding-bottom: 1rem;
+    }
+    .scroll-btn {
+      background-color: #0d6efd;
+      border: none;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      height: 50px;
+      width: 50px;
+    }
 
 
 /* .main-btn{
