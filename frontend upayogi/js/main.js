@@ -18,7 +18,7 @@
     const container = document.getElementById("teamScroll");
 
   function scrollLeft() {
-    container.scrollBy({ left: -300, behavior: "smooth" });
+    container.scrollBy({ left: 300, behavior: "smooth" });
   }
 
   function scrollRight() {
